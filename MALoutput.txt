@@ -1,0 +1,6 @@
+LOAD R5, X
+ADD r2,r7,r7
+SBB R4, R5, total 
+STORE total, R9 
+ADD 123go 
+END

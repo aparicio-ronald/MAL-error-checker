@@ -1,0 +1,1 @@
+;multiple errors, author: J. GurkaLOAD	R5, XADD		r2,r7,r7SBB   R4, R5, total	;error:  should be SUB	  ;;;   comment-only lineSTORE	total, R9	;flipped operands	ADD		123go  ;too few operands and bad identifierEND
